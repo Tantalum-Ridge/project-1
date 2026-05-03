@@ -1,0 +1,116 @@
+[gd_resource type="TileSet" format=3 uid="uid://cf6n46pyly6w8"]
+
+[ext_resource type="Texture2D" uid="uid://cpmi4ghjl4yxo" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Bushes/Bushe1.png" id="1_2crob"]
+[ext_resource type="Texture2D" uid="uid://l3y77ilerwso" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Bushes/Bushe2.png" id="2_4juce"]
+[ext_resource type="Texture2D" uid="uid://boe7dm6smc2b8" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks/Rock2.png" id="3_5v86k"]
+[ext_resource type="Texture2D" uid="uid://c52o0442kfqbi" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks/Rock3.png" id="4_sm8d1"]
+[ext_resource type="Texture2D" uid="uid://bidgb3iruhtlh" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks/Rock4.png" id="5_xjmhu"]
+[ext_resource type="Texture2D" uid="uid://c4oygeo8s52mo" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks in the Water/Water Rocks_01.png" id="6_xr5li"]
+[ext_resource type="Texture2D" uid="uid://bypxmgw3iugdc" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks in the Water/Water Rocks_02.png" id="7_250vt"]
+[ext_resource type="Texture2D" uid="uid://d3nlubu11nyfh" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks in the Water/Water Rocks_03.png" id="8_8rcct"]
+[ext_resource type="Texture2D" uid="uid://k1psa7v28q4t" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks in the Water/Water Rocks_04.png" id="9_5rlg5"]
+[ext_resource type="Texture2D" uid="uid://i6o6kt8bd8b2" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Bushes/Bushe3.png" id="10_av3by"]
+[ext_resource type="Texture2D" uid="uid://cb4jradi3xwrp" path="res://assets/sprites/environment/tinySwordpack/Terrain/Resources/Wood/Trees/Tree3.png" id="11_6aife"]
+[ext_resource type="Texture2D" uid="uid://dxs83yy4qavmd" path="res://assets/sprites/environment/tinySwordpack/Terrain/Resources/Wood/Trees/Tree4.png" id="12_4qr6j"]
+[ext_resource type="Texture2D" uid="uid://bhopurptswiqm" path="res://assets/sprites/environment/tinySwordpack/Terrain/Decorations/Rocks/Rock1.png" id="13_wqfpi"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_trutg"]
+texture = ExtResource("1_2crob")
+texture_region_size = Vector2i(128, 128)
+0:0/animation_speed = 8.0
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_b6t0a"]
+texture = ExtResource("2_4juce")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4ipxi"]
+texture = ExtResource("3_5v86k")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_8uouf"]
+texture = ExtResource("4_sm8d1")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6cros"]
+texture = ExtResource("5_xjmhu")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_fio5s"]
+texture = ExtResource("6_xr5li")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2aytg"]
+texture = ExtResource("7_250vt")
+texture_region_size = Vector2i(64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_t1ilt"]
+texture = ExtResource("8_8rcct")
+texture_region_size = Vector2i(64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_qhrie"]
+texture = ExtResource("9_5rlg5")
+texture_region_size = Vector2i(64, 64)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_yc428"]
+texture = ExtResource("10_av3by")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_dgkw4"]
+texture = ExtResource("11_6aife")
+texture_region_size = Vector2i(192, 192)
+0:0/animation_speed = 8.0
+0:0/animation_mode = 1
+0:0/animation_frame_0/duration = 1.0
+0:0/animation_frame_1/duration = 1.0
+0:0/animation_frame_2/duration = 1.0
+0:0/animation_frame_3/duration = 1.0
+0:0/animation_frame_4/duration = 1.0
+0:0/animation_frame_5/duration = 1.0
+0:0/animation_frame_6/duration = 1.0
+0:0/animation_frame_7/duration = 1.0
+0:0/0 = 0
+0:0/0/texture_origin = Vector2i(0, 64)
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-16, -16, 16, -16, 16, 16, -16, 16)
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_2yup7"]
+texture = ExtResource("12_4qr6j")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_j5547"]
+texture = ExtResource("13_wqfpi")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+
+[resource]
+tile_size = Vector2i(32, 32)
+physics_layer_0/collision_layer = 1
+physics_layer_0/collision_mask = 0
+sources/0 = SubResource("TileSetAtlasSource_trutg")
+sources/1 = SubResource("TileSetAtlasSource_b6t0a")
+sources/2 = SubResource("TileSetAtlasSource_yc428")
+sources/7 = SubResource("TileSetAtlasSource_dgkw4")
+sources/8 = SubResource("TileSetAtlasSource_2yup7")
+sources/9 = SubResource("TileSetAtlasSource_j5547")
+sources/10 = SubResource("TileSetAtlasSource_4ipxi")
+sources/11 = SubResource("TileSetAtlasSource_8uouf")
+sources/12 = SubResource("TileSetAtlasSource_6cros")
+sources/13 = SubResource("TileSetAtlasSource_fio5s")
+sources/14 = SubResource("TileSetAtlasSource_2aytg")
+sources/15 = SubResource("TileSetAtlasSource_t1ilt")
+sources/16 = SubResource("TileSetAtlasSource_qhrie")

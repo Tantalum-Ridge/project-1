@@ -46,12 +46,19 @@ func _ready() -> void:
 		
 		# Fixer le pivot au centre gauche pour que le zoom se fasse vers la droite
 		label.pivot_offset = Vector2(0, 16) 
+		
+		# Connexion du signal d'entrée pour le clic souris
+		label.gui_input.connect(_on_label_gui_input.bind(i))
 	
 	if options.size() > 0:
 		set_selection(0)
 
 func _on_label_mouse_entered(index: int) -> void:
 	set_selection(index)
+
+func _on_label_gui_input(event: InputEvent, index: int) -> void:
+	if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		handle_selection(index)
 
 func _input(event: InputEvent) -> void:
 	var options = menu_options_container.get_children()
@@ -62,6 +69,19 @@ func _input(event: InputEvent) -> void:
 		set_selection((current_selection + 1) % options.size())
 	elif event.is_action_pressed("ui_up"):
 		set_selection((current_selection - 1 + options.size()) % options.size())
+	elif event.is_action_pressed("ui_accept"):
+		handle_selection(current_selection)
+
+func handle_selection(index: int) -> void:
+	match index:
+		0: # Nouvelle partie
+			get_tree().change_scene_to_file("res://resources/scenes/levels/level_1.tscn")
+		1: # Charger sauvegarde
+			print("Charger sauvegarde - Pas encore implémenté")
+		2: # Parametres
+			print("Paramètres - Pas encore implémenté")
+		3: # Quitter
+			get_tree().quit()
 
 func set_selection(index: int) -> void:
 	current_selection = index
